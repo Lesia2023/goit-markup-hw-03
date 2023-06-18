@@ -16,7 +16,18 @@ body{
     font-family:'Roboto',sans-serif;
     color: var(--prinory-text-color);
      font-style: normal;
+     margin: 0;
 }
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+
+
+
 .link-logo{
     font-family: 'Raleway';
     font-weight: 700;
@@ -59,6 +70,17 @@ margin-right:  40px;
 
 .men-title{
     background-color: var(--title-backround-color);
+
+
+    width: 1600px;
+    margin: 80px 0px 94px 0 px;
+    
+
+
+
+
+
+
 }
 
 
@@ -76,14 +98,32 @@ margin-right:  40px;
           
    }
 .list{
-display: flex;
-
+display:flex;
+flex-wrap: wrap;
+margin-left: -30px;
+margin-top: -30px;
 
 
 
 
     
 }
+
+
+
+
+
+.list-card{
+   display:flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100-3*30)/3);
+}
+
+
+
+
+
 
 
 .link-list{
@@ -158,6 +198,12 @@ display: flex;
 }
 
 .title{
+      width: 696px;
+      padding: 200px 452px 280px 452px;
+      margin-bottom: 30px;
+
+
+
      font-weight: 900;
      font-size: 44px;
      line-height: 1.4;
@@ -210,6 +256,11 @@ display: flex;
 }
 
 
+
+
+
+
+
 .list-portfolio{
     text-decoration:none ;
     list-style: none;
@@ -232,13 +283,17 @@ display: flex;
 }
 
 .work{
+    width: 1600px;
+    margin-bottom: 25px;
+
+
      font-weight: 700;
      font-size: 36px;
      line-height: 1.2;
      text-align: center;
      letter-spacing: 0.03em;
      color: var(--prinory-text-color);
-     background-color: var(--prinory-backround-color); 
+    
 }
     
 
