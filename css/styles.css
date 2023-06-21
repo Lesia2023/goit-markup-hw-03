@@ -16,11 +16,14 @@ body{
     font-family:'Roboto',sans-serif;
     color: var(--prinory-text-color);
      font-style: normal;
-     margin: 0;
+
+
+     line-height: 1.5;
+     
 }
-h1,h2,h3,h4,h5,h6,p{
-    margin-bottom: 0;
-    margin-top: 0;
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+    
 }
 
 
@@ -44,20 +47,13 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 .heder{
-    position: absolute;
+    
     background-color: var(--accent-backround-color);
      
 }
 
 .heder-list{
 display: flex;
-margin-right:  40px;
-
-
-
-
-
-
 
 
 }
@@ -71,16 +67,8 @@ margin-right:  40px;
 .men-title{
     background-color: var(--title-backround-color);
 
-
     width: 1600px;
-    margin: 80px 0px 94px 0 px;
-    
-
-
-
-
-
-
+     margin-bottom: 80px;
 }
 
 
@@ -100,8 +88,8 @@ margin-right:  40px;
 .list{
 display:flex;
 flex-wrap: wrap;
-margin-left: -30px;
-margin-top: -30px;
+margin-left: 30px;
+margin-top: 30px;
 
 
 
@@ -163,6 +151,9 @@ margin-top: -30px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--prinory-text-color);
+
+    
+    
 }
 
 .nav-list{
@@ -199,11 +190,8 @@ margin-top: -30px;
 
 .title{
       width: 696px;
-      padding: 200px 452px 280px 452px;
-      margin-bottom: 30px;
-
-
-
+      padding: 200px  452px 280px;
+      margin: 20px;
      font-weight: 900;
      font-size: 44px;
      line-height: 1.4;
@@ -216,6 +204,14 @@ margin-top: -30px;
 
 
 .button-service{
+        width: 200px;
+        height: 50px;
+        margin: 20px 700px 200px 700px;
+
+
+
+
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -246,6 +242,10 @@ margin-top: -30px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--prinory-text-color);
+
+
+
+
 }
 .list-text {
     font-weight: 400;
@@ -295,7 +295,13 @@ margin-top: -30px;
      color: var(--prinory-text-color);
     
 }
-    
+.list-services{
+ width: 270;
+list-style: none;
+display: flex;
+flex-wrap: nowrap;
+margin: 15px;
+}
 
 .list-comanda{
   font-weight: 500; 
@@ -307,7 +313,23 @@ margin-top: -30px;
 
 .tem{
     background-color: var(--prinory-backround-color);
+
+
+
+
 }
+
+
+.section{
+   width: 1600px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
 
 
 .list-profession{
@@ -317,9 +339,17 @@ margin-top: -30px;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
+.list-foto{
+width: 370px;
+padding-left:15px ;
 
+}
 
+.foto-work{
+width: 270px;
+padding: 15px;;
 
+}
 
 .address-nov{
         font-style: normal;
