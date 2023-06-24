@@ -21,9 +21,9 @@ body{
      line-height: 1.5;
      
 }
-h1,h2,h3,h4,h5,h6, p{
+h1,h2,h3,h4,h5,h6,ul,p{
     margin: 0;
-    
+    padding: 0;
 }
 
 
@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5,h6, p{
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--accent-lin-color);
+    margin-right: 94px;
 }
 .port{
         color: var(--logo-color);
@@ -52,14 +53,33 @@ h1,h2,h3,h4,h5,h6, p{
      
 }
 
-.heder-list{
-display: flex;
+.heder-content{
 
-
+    display: flex;
+    align-items: stretch;
 
 }
 
 
+
+
+
+.heder-list{
+display:flex;
+align-items: center;
+
+
+}
+
+.list-heder{
+list-style: none;
+display:flex;
+align-items: center;
+padding-left: 94px;
+padding-right:94px ;
+gap:30px;
+
+  }
 
 
 
@@ -86,17 +106,6 @@ display: flex;
         letter-spacing: 0.03em;
           
    }
-.list{
-display:flex;
-flex-wrap: wrap;
-margin-left: 30px;
-margin-top: 30px;
-
-
-
-
-    
-}
 
 
 
@@ -136,6 +145,9 @@ margin-top: 30px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+
+   
+
 }
 
 .link-list-contacts:hover,
@@ -152,7 +164,9 @@ margin-top: 30px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--prinory-text-color);
-
+    display: flex;
+    flex-wrap: wrap;
+    
     
     
 }
@@ -163,6 +177,8 @@ margin-top: 30px;
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: var(--prinory-text-color);
+
+        padding-right: 30px;
 }
 
 
@@ -205,13 +221,9 @@ margin-top: 30px;
 
 
 .button-service{
-        width: 200px;
-        height: 50px;
-        margin: 20px 700px 200px 700px;
-
-
-
-
+     width: 200px;
+     height: 50px;
+     margin: 20px 700px 200px 700px;
 
     font-weight: 700;
     font-size: 16px;
