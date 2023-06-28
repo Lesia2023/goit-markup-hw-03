@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6,ul,p{
 .heder{
     
     background-color: var(--accent-backround-color);
-   
+   border-bottom:1px ;
 }
 
 .heder-content{
@@ -75,9 +75,9 @@ align-items: center;
 list-style: none;
 display:flex;
 align-items: center;
-padding-left: 94px;
-padding-right:94px ;
-gap:30px;
+margin-left: auto;
+gap: 30px;
+
 
   }
 
@@ -116,6 +116,10 @@ gap:30px;
 .link-list{
     text-decoration: none;
      color:var(--prinory-text-color);
+
+
+     padding-top: 32px;
+     padding-bottom: 32px;
 }
    
 .link-list:hover,
@@ -125,6 +129,10 @@ gap:30px;
 }
 .link-list.current{
     color: var(--accent-lin-color);
+
+
+    padding-top: 32px;
+    padding-bottom:32px ;
 }
 
 .link-list-contacts{
@@ -152,6 +160,9 @@ gap:30px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--prinory-text-color);
+
+
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     
@@ -164,7 +175,9 @@ gap:30px;
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: var(--prinory-text-color);
-        padding-right: 30px;
+
+
+        margin: 30px;
 }
 
 
@@ -175,6 +188,8 @@ gap:30px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+
+    margin-left: 40px;
 }
 
 .mail:hover,
@@ -229,6 +244,8 @@ gap:30px;
     letter-spacing: 0.03em;
     color: var(--prinory-text-color);
     background-color: var(--prinory-backround-color);
+
+
 }
 
 .list-button:hover,
@@ -282,9 +299,10 @@ gap:30px;
 }
 
 .work{
-    width: 1600px;
+    width: 1200px;
     margin-bottom: 25px;
     margin-top: 94px;
+    
 
      font-weight: 700;
      font-size: 36px;
@@ -308,6 +326,10 @@ gap:30px;
   line-height: 1.2;
   letter-spacing: 0.03em;
    color: var(--prinory-text-color);
+
+
+   text-align: center;
+
 }
 
 .tem{
@@ -317,7 +339,7 @@ gap:30px;
 
 
 .section{
-   width: 1600px;
+   width: 1200px;
    padding-left: 15px;
    padding-right: 15px;
    margin-left: auto;
@@ -334,7 +356,8 @@ gap:30px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-
+    
+    text-align: center;
     border-radius: 0px 0px 4px 4px;
   
 
@@ -370,8 +393,6 @@ footer{
     background-color: var(--title-backround-color);
     color: var(--tetriory-color);
 }
-
-
 .port-footer{
     color: var(--tetriory-color);
 }
