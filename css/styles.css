@@ -395,7 +395,7 @@ gap: 30px;
         color: var(--tetriory-color);
 }
 footer{ 
- 
+    width: 1600px;
     background-color: var(--title-backround-color);
     color: var(--tetriory-color);
 }
