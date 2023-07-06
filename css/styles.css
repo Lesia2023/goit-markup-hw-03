@@ -49,15 +49,15 @@ h1,h2,h3,h4,h5,h6,ul,p{
 
 .heder{
     
-    background-color: var(--accent-backround-color);
-   border-bottom:1px ;
+    background-color: var(--accent-backround-color)  ;
+    border-bottom: 1px solid #ececec;
 }
 
 .heder-content{
 
     display: flex;
     align-items: stretch;
-
+     
 }
 
 
@@ -85,13 +85,15 @@ gap: 50px;
     background-color: var(--title-backround-color);
      text-align: center;
      align-items: center;
-     padding-top: 94px ;
-     padding-left: 94px;
+     padding-top: 200px ;
+     padding-bottom: 200px;
 }
 .title {
-
-    margin-bottom: 30px;
-     
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 696px;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -115,11 +117,10 @@ gap: 50px;
       }
 
 .list-card{
-   display:flex;
-    margin-left: 30px;
-    margin-top: 30px;
+    display:flex;
+    padding-top: 56px;
     flex-basis: calc((100%-60)/3);
-
+    width: 370px;
 
 }
 
@@ -176,7 +177,7 @@ gap: 50px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--prinory-text-color);
-    gap: 50px; ;
+    gap: 50px; 
 
     margin-left: auto;
     display: flex;
@@ -185,6 +186,27 @@ gap: 50px;
       
 }
 
+.comanda-list {
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--prinory-text-color);
+    gap: 30px;
+    
+
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
 .nav-list{
         font-weight: 500;
         font-size: 14px;
@@ -192,7 +214,7 @@ gap: 50px;
         letter-spacing: 0.02em;
         color: var(--prinory-text-color);
 
-        margin: 30px;
+        
 }
 
 
@@ -263,6 +285,7 @@ gap: 50px;
     text-transform: uppercase;
     color: var(--prinory-text-color);
 
+    margin: bottom 10px; ;
 
 
 
@@ -281,7 +304,8 @@ gap: 50px;
 .list-portfolio{
     text-decoration:none ;
     list-style: none;
-
+    
+    display: block;
 
     
 }
@@ -302,10 +326,8 @@ gap: 50px;
 }
 
 .work{
-    width: 1200px;
-    margin-bottom: 25px;
-
     
+    margin-bottom: 50px;
 
      font-weight: 700;
      font-size: 36px;
@@ -315,17 +337,39 @@ gap: 50px;
      color: var(--prinory-text-color);
     
 }
+.list-work{
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--prinory-text-color);
+    gap: 30px;
+
+    margin-left: auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+
+
+
+
+
 .list-services{
     
       list-style: none;
       display: flex;
       flex-wrap: nowrap;
 
-      margin-bottom: 10px;
-
-
-      gap: 30px;
+       gap: 30px;
 }
+
+.services{
+    width: 270px;
+}
+
 
 .list-comanda{
   font-weight: 500; 
@@ -334,6 +378,9 @@ gap: 50px;
   letter-spacing: 0.03em;
    color: var(--prinory-text-color);
 
+   padding-top: 30px;
+   padding-bottom: 30px;
+  
 
    text-align: center;
 
@@ -358,7 +405,9 @@ gap: 50px;
     padding-bottom: 94px;
 }
 
-
+.section-work{
+    padding-bottom: 94px;
+}
 
 .list-profession{
     font-weight: 400;
@@ -378,7 +427,7 @@ gap: 50px;
 }
 .list-foto{
      width: 370px;
-     margin-top: 25px;
+     display: block;
     
      
 
@@ -388,7 +437,8 @@ gap: 50px;
 
 .foto-work{
     width: 270px;
-   padding: 25px 15px 0px;
+    display: block;
+   
   
 }
 
