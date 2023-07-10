@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6,ul,p{
 .heder-content{
 
     display: flex;
-       
+    border-bottom: 1px solid #ececec;   
 }
 
 
@@ -116,8 +116,7 @@ gap: 50px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--prinory-text-color);
-        
-        
+          
         margin-left: -30px;
         margin-bottom: -30px;
         display: flex;
@@ -140,10 +139,7 @@ gap: 50px;
 .link-list{
     text-decoration: none;
      color:var(--prinory-text-color);
-
-
      display: block;
-
      padding-top: 32px;
      padding-bottom: 32px;
 }
@@ -204,7 +200,6 @@ gap: 50px;
     letter-spacing: 0.02em;
     color: var(--prinory-text-color);
     gap: 8px;
-
     margin: auto;
     display: flex;
     justify-content: center;
@@ -213,6 +208,9 @@ gap: 50px;
 
 .text {
 padding:20px 24px ;
+border-right: 1px solid #EEE;
+border-bottom: 1px solid #EEE;
+border-left: 1px solid #EEE;
 }
 
 
@@ -227,8 +225,6 @@ padding:20px 24px ;
     letter-spacing: 0.02em;
     color: var(--prinory-text-color);
     gap: 30px;
-    
-
     margin-left: auto;
     display: flex;
     flex-wrap: wrap;
@@ -258,8 +254,7 @@ padding:20px 24px ;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color);
-
-    
+   
 }
 
 .mail:hover,
@@ -298,7 +293,7 @@ padding:20px 24px ;
     letter-spacing: 0.03em;
     color: var(--prinory-text-color);
     background-color: var(--prinory-backround-color);
-    
+    padding:6px 22px ;
     gap: 8px;
     border-radius: 4px;
 
@@ -317,7 +312,6 @@ padding:20px 24px ;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--prinory-text-color);
-
     margin-bottom:10px; 
 
 
@@ -351,6 +345,7 @@ img{
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--prinory-text-color);
+    margin-bottom: 4px;
 }
 .list-phase {
     font-weight: 400;
@@ -380,7 +375,6 @@ img{
     letter-spacing: 0.02em;
     color: var(--prinory-text-color);
     gap: 30px;
-
     margin-left: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -397,8 +391,7 @@ img{
       list-style: none;
       display: flex;
       flex-wrap: nowrap;
-
-       gap: 30px;
+      gap: 30px;
 }
 
 .services{
@@ -416,8 +409,7 @@ img{
   letter-spacing: 0.03em;
    color: var(--prinory-text-color);
    margin-bottom: 10px;
-   
-   text-align: center;
+    text-align: center;
 
 }
 
@@ -474,7 +466,7 @@ img{
 
 .foto-work{
     width: 270px;
-     margin-bottom:30px;
+    
   
 }
 
@@ -507,8 +499,6 @@ footer{
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         margin-top: 12px;
-
-
         display: flex;
         flex-direction: column;
 }
