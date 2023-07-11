@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6,ul,p{
 
 
 
-.heder{
+.header {
     
     background-color: var(--accent-backround-color)  ;
     border-bottom: 1px solid #ececec;
@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6,ul,p{
 .heder-content{
 
     display: flex;
-    border-bottom: 1px solid #ececec;
+
 }
 
 
@@ -202,7 +202,7 @@ gap: 50px;
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-bottom:56px;
+    margin-bottom:50px;
 }
 
 .text {
